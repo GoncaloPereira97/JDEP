@@ -1,0 +1,122 @@
+App\Models\User Object
+(
+    [connection:protected] => mysql
+    [table:protected] => users
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [preventsLazyLoading] => 
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 
+    [escapeWhenCastingToString:protected] => 
+    [attributes:protected] => Array
+        (
+            [id] => 19
+            [primeiro_nome] => Richie
+            [ultimo_nome] => ole
+            [user_type] => 3
+            [email] => we33wq211313423242431425534q@sada.com
+            [password] => $2y$10$eviZs0nkMBHoNfyVFV3/hOYaaHrRQWSozr8Yq34Bdx203Ty25.a1K
+            [email_verified_at] => 
+            [verified] => 0
+            [genero] => M
+            [NIF] => 
+            [id_teste] => 
+            [id_freguesia] => 1
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 19
+            [primeiro_nome] => Richie
+            [ultimo_nome] => ole
+            [user_type] => 3
+            [email] => we33wq211313423242431425534q@sada.com
+            [password] => $2y$10$eviZs0nkMBHoNfyVFV3/hOYaaHrRQWSozr8Yq34Bdx203Ty25.a1K
+            [email_verified_at] => 
+            [verified] => 0
+            [genero] => M
+            [NIF] => 
+            [id_teste] => 
+            [id_freguesia] => 1
+        )
+
+    [changes:protected] => Array
+        (
+        )
+
+    [casts:protected] => Array
+        (
+            [email_verified_at] => datetime
+            [password] => hashed
+        )
+
+    [classCastCache:protected] => Array
+        (
+        )
+
+    [attributeCastCache:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [dispatchesEvents:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 1
+    [usesUniqueIds] => 
+    [hidden:protected] => Array
+        (
+            [0] => password
+            [1] => remember_token
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+    [fillable:protected] => Array
+        (
+            [0] => primeiro_Nome
+            [1] => ultimo_Nome
+            [2] => genero
+            [3] => id_freguesia
+            [4] => email
+            [5] => password
+            [6] => user_type
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => *
+        )
+
+    [rememberTokenName:protected] => remember_token
+    [accessToken:protected] => 
+)

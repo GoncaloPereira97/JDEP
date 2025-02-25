@@ -1,0 +1,118 @@
+App\Models\User Object
+(
+    [connection:protected] => mysql
+    [table:protected] => users
+    [primaryKey:protected] => id
+    [keyType:protected] => int
+    [incrementing] => 1
+    [with:protected] => Array
+        (
+        )
+
+    [withCount:protected] => Array
+        (
+        )
+
+    [preventsLazyLoading] => 
+    [perPage:protected] => 15
+    [exists] => 1
+    [wasRecentlyCreated] => 
+    [escapeWhenCastingToString:protected] => 
+    [attributes:protected] => Array
+        (
+            [id] => 32
+            [primeiro_nome] => Richie
+            [ultimo_nome] => Rozay
+            [user_type] => 3
+            [email] => cromolandia@com.com
+            [password] => $2y$10$BEldrktqfe0lF550AVoYU..zvAbdEOhcQM/idZuxsxuo51BgEiEba
+            [email_verified_at] => 
+            [verified] => 0
+            [genero] => M
+            [NIF] => 
+            [id_teste] => 
+            [id_freguesia] => 1
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 32
+            [primeiro_nome] => Richie
+            [ultimo_nome] => Rozay
+            [user_type] => 3
+            [email] => cromolandia@com.com
+            [password] => $2y$10$BEldrktqfe0lF550AVoYU..zvAbdEOhcQM/idZuxsxuo51BgEiEba
+            [email_verified_at] => 
+            [verified] => 0
+            [genero] => M
+            [NIF] => 
+            [id_teste] => 
+            [id_freguesia] => 1
+        )
+
+    [changes:protected] => Array
+        (
+        )
+
+    [casts:protected] => Array
+        (
+            [email_verified_at] => datetime
+            [password] => hashed
+        )
+
+    [classCastCache:protected] => Array
+        (
+        )
+
+    [attributeCastCache:protected] => Array
+        (
+        )
+
+    [dateFormat:protected] => 
+    [appends:protected] => Array
+        (
+        )
+
+    [dispatchesEvents:protected] => Array
+        (
+        )
+
+    [observables:protected] => Array
+        (
+        )
+
+    [relations:protected] => Array
+        (
+        )
+
+    [touches:protected] => Array
+        (
+        )
+
+    [timestamps] => 1
+    [usesUniqueIds] => 
+    [hidden:protected] => Array
+        (
+            [0] => password
+            [1] => remember_token
+        )
+
+    [visible:protected] => Array
+        (
+        )
+
+    [fillable:protected] => Array
+        (
+            [0] => name
+            [1] => email
+            [2] => password
+        )
+
+    [guarded:protected] => Array
+        (
+            [0] => *
+        )
+
+    [rememberTokenName:protected] => remember_token
+    [accessToken:protected] => 
+)
